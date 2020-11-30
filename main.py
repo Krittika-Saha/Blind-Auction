@@ -19,6 +19,7 @@ while True:
   bids[name] = bid
   other_bidder = input("Is there any other bidder? Type 'yes' or 'no': ")
   if other_bidder == 'yes':
+    #Pls change CLS to cls in Unix
     system('CLS')
     pass
   elif other_bidder == 'no':
